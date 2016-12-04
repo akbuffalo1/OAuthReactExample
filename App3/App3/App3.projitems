@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9ca76a6b-d545-4e0f-b271-445e40f58144</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>App3</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Plugins\OAuth\IOAuthAccountHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plugins\OAuth\OAuthServiceProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plugins\OAuth\Droid\OAuthAccountHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plugins\Json\JsonFileReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DI\IoCContainer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DI\Resolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reactive\ReactiveExtentionMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\IViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TwitterTestViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TwitterApiService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Platform\Droid\CurrentActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Platform\Droid\ICurrentActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Reactive\ReactiveViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DI\TinyContainer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DI\TinyIoC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DI\TinyResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CurrentActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Plugins\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Plugins\OAuth\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Plugins\OAuth\Droid\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Plugins\Json\" />
+    <Folder Include="$(MSBuildThisFileDirectory)DI\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Reactive\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Base\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Platform\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Platform\Droid\" />
+  </ItemGroup>
+</Project>

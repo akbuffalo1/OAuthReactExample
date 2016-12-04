@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{C97B5D6D-DA37-4549-B81D-C37E8305F0AE}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.App3.Droid AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="AppTheme" PreferredExecutionTarget="Android.08da5f17" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\ak-buffalo\Documents\XamarinProjects\App3\App3\App3\TwitterApiService.cs" line="54" column="21" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="App3\App3\TwitterApiService.cs">
+    <Files>
+      <File FileName="App3\App3.Droid\TwitterTestActivity.cs" Line="32" Column="26" />
+      <File FileName="App3\App3\Plugins\OAuth\Droid\OAuthAccountHelper.cs" Line="26" Column="23" />
+      <File FileName="App3\App3\TwitterApiService.cs" Line="54" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
